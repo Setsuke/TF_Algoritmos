@@ -105,10 +105,51 @@ Un algoritmo de búsqueda como lo dice su nombre es una secuencia de pasos para 
 
 ### Búsqueda binaria
 
-Es un algoritmo de búsqueda más eficiente que el anterior, pero posee el inconveniente que el arreglo debe estar ordenado. Su metodología consiste en colocarse en medio o parte central del arreglo, si no encuentra el elemento en dicha posición entonces se pregunta si el valor de dicha posición es menor o mayor a la clave de búsqueda, en caso de que sea menor entonces se coloca en medio del primer bloque de elementos del arreglo e ignora los elementos del segundo bloque, en caso de que sea mayor se coloca en medio del segundo bloque de elementos del arreglo e ignora los elementos del bloque anterior. Estos pasos se repiten hasta que se encuentre el elemento buscado. Lo que hace que este algoritmo sea mucho más eficiente que el algoritmo de búsqueda secuencial se debe a que en vez de pasar uno por uno los elementos de todo el arreglo, lo que hace es ignorar los bloques de elementos donde indudablemente se sabe
+Es un algoritmo de búsqueda más eficiente que el anterior, pero posee el inconveniente que el arreglo debe estar ordenado. Su metodología consiste en colocarse en medio o parte central del arreglo, si no encuentra el elemento en dicha posición entonces se pregunta si el valor de dicha posición es menor o mayor a la clave de búsqueda, en caso de que sea menor entonces se coloca en medio del primer bloque de elementos del arreglo e ignora los elementos del segundo bloque, en caso de que sea mayor se coloca en medio del segundo bloque de elementos del arreglo e ignora los elementos del bloque anterior. Estos pasos se repiten hasta que se encuentre el elemento buscado. Lo que hace que este algoritmo sea mucho más eficiente que el algoritmo de búsqueda secuencial se debe a que en vez de pasar uno por uno los elementos de todo el arreglo.
  –
-debido a que está ordenado- que no puede encontrarse allí. Por ejemplo, imaginemos que tenemos un arreglo que contiene 11 elementos distribuidos de manera ordenada [2,6,9,12,15,18,24,29,32,45,50] y queremos buscar el elemento 12 en dicho arreglo. El algoritmo divide el arreglo en dos partes o bloques y se coloca en la posición del medio, en este caso se colocará en el elemento 18 ya que es la posición media del arreglo. Luego compara dicho elemento con la clave de búsqueda o dato que deseamos buscar, lo cual resulta que 18 no es similar a 12, por lo cual procede a verificar si dicho elemento es menor o mayor a la clave de búsqueda, es decir, si 18 es menor o mayor a 12, en este caso 18 es mayor a 12, por la cual el algoritmo procede a ignorar todos los elementos mayores e iguales que 18, es decir, ignora todos los elementos del segundo bloque y repite el proceso centrándose en el primer bloque y dividiendo dicho bloque en dos partes. En caso de que  no encuentre el elemento repite el proceso hasta que indique si el elemento se encuentre o no en el arreglo. El algoritmo compararía los elementos del arreglo [2,6,9,12,15,18,24,29,32,45,50] de la siguiente manera:
 
+### Arboles
+
+Los arboles son estructuras de datos que son utilizados con mayor frecuencia, se carectirizan por almacenar sus nodos en forma jerárquica y no en forma lineal como las colas , pilas, lista etc.
+
+### Características
+--------------------
+
+Nodo Raíz : Se refiere al primer elemento del arbol
+
+Nodo Padre : Se le asigna este nombre a los nodos que tienen por los menos un hijo
+
+Nodo Hijo : Se refiere al nodo que tienen un padre
+
+Nodo Hermano : Dentro de las estructura comparten el mismo padre
+
+Nodo Hoja : Simpre se encuentran en los entremos del arbol y no tienen hijos
+
+Nodo Rama : Estos nodos no son considerados como la raiz del arbol y tienen al menos un hijo
+
+
+### Recorrido sobre arboles 
+
+El siguiente algoritmo nos ayuda a encontrar o buscar una posicion determinada para eleminar o insertar
+dentro de la estructura
+ 
+Recorrido pre orden : El recorrido inicia en la raiz y luego recorre en pre-orden
+cada uno de los sub arboles de izquierda a derecha
+
+Recorrido Pos-orden : Se recorre en pos-orden cada uno de los sub-arbol y al final 
+se recorre la raiz
+
+Recorrido in-orden : Se recorre el primer sub elemento del arbol, luego se recorre la raiz y por ultimo los
+demas sub arboles
+
+### Árbol n-ario
+
+Es el arbol n-ario donde el maximo de hijos por nodo es de N
+
+### Árbol binario
+
+Se caracteriza porque cada nodo tiene como maximo puede terner 2 hijos.Ádemas es un arbol de grado
+2
 
 ```c++
 int main(){
@@ -147,8 +188,8 @@ Semana 15: Hito 3
 
 * Debasis, S. (2009). Classic Data Structures. 2ª ed. PHI Learning: Nueva Delhi.
 
+* Peng, R. D. (2016). R Programming for Data Science. Leanpub. https://leanpub.com/rprogramming
 
+* Wickham. H. y Grolemund, G. (2017). R for Data Science. O’Reilly. http://r4ds.had.co.nz/
 
-
-
-
+* https://www.oscarblancarteblog.com/2014/08/22/estructura-de-datos-arboles/
