@@ -88,7 +88,11 @@ Se ha dicho que el ordenamiento puede efectuarse moviendo los registros con las 
 La eficiencia de los algoritmos se mide por el número de comparaciones e intercambios que tienen que hacer, es decir, se toma n como el número de elementos que tiene el arreglo a ordenar y se dice que un algoritmo realiza O(n2) comparaciones cuando compara n veces los n elementos, n x n = n2. 
 
  
-### El METODO ORDENAMIENTO  QUE UTILIZAREMOS ES POR INSERCION 
+### El METODO ORDENAMIENTO MERGE
+
+Este algoritmo se basa en una estrategia de divide y vencerás como una forma de mejorar el rendimiento de los algoritmos de ordenamiento. Merge, es un algoritmo recursivo que divide continuamente una lista por la mitad. Si la lista esta vacía o tiene un solo ítem, se ordena por definición. Si la lista tiene más de un ítem, se divide la lista y se invoca recursivamente un ordenamiento por mezcla para ambas mitades. Cuando ambas mitades se encuentran ordenadas, se realiza la operación principal, llamada Merge(mezcla). La mezcla es el proceso de tomar dos listas ordenadas de menor tamaño y combinarlas en una sola lista nueva y ordenada.
+
+### El METODO ORDENAMIENTO INSERTION
  
 El ordenamiento por inserción (insertion sort en inglés) es una manera muy natural de ordenar para un ser humano, y puede usarse fácilmente para ordenar un mazo de cartas numeradas en forma arbitraria. Requiere O(n²) operaciones para ordenar una lista de n elementos.
 
