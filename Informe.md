@@ -121,7 +121,10 @@ return 0;
 ### Cronograma
 
 
+### Bibliografia
 
+*Urquía, A., & Martín, C. (2013). Modelado y simulación de eventos discretos. Madrid: UNED.
+*Debasis, S. (2009). Classic Data Structures. 2ª ed. PHI Learning: Nueva Delhi.
 
 
 
