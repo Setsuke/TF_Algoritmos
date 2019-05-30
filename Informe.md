@@ -22,7 +22,7 @@ Para lograr nuestro objetivo, tenemos que someternos a un riguroso plan de conce
 
 El trabajo final del curso tiene los siguientes objetivos principales:
 
--Diseñar un algoritmo que permita la importación de datos. .. -Diseñar un algoritmo que permita el indexado de datos por columnas. .. -Diseñar un algoritmo que permita la selección de datos por columnas. .. -Diseñar un algoritmo que permita el ordenamiento de datos por columnas. .. -Diseñar un algoritmo que permita la Exportación de datos a archivos planos con diferente formato. .. -Desarrollar el proyecto de acuerdo al cronograma establecido.
+-Diseñar un algoritmo que permita la importación de datos. -Diseñar un algoritmo que permita el indexado de datos por columnas. -Diseñar un algoritmo que permita la selección de datos por columnas. -Diseñar un algoritmo que permita el ordenamiento de datos por columnas. -Diseñar un algoritmo que permita la Exportación de datos a archivos planos con diferente formato. -Desarrollar el proyecto de acuerdo al cronograma establecido.
 
 _Ver la taxonomia de Bloom para seleccionar verbos_
 _Objetivo General: dar solucion al problema_
