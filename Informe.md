@@ -18,6 +18,11 @@ Solucion general, Lo que se espera(manipular de manera rapida y eficiente grande
 ### Problema
 
 ### Objetivos
+Para lograr nuestro objetivo, tenemos que someternos a un riguroso plan de concentración en equipo y usar todos los recursos que tenemos a nuestro alcance, los cuales son el poner en práctica los temas explicados, los que se explicaran posteriormente en clase y otros que se investigaran para la realización de nuestro trabajo, desarrollando un pensamiento más innovador que no ayudara a captar la solución más eficiente para el desarrollo del trabajo y para problemas a futuro dentro de nuestra vida profesional.
+
+El trabajo final del curso tiene los siguientes objetivos principales:
+
+-Diseñar un algoritmo que permita la importación de datos. .. -Diseñar un algoritmo que permita el indexado de datos por columnas. .. -Diseñar un algoritmo que permita la selección de datos por columnas. .. -Diseñar un algoritmo que permita el ordenamiento de datos por columnas. .. -Diseñar un algoritmo que permita la Exportación de datos a archivos planos con diferente formato. .. -Desarrollar el proyecto de acuerdo al cronograma establecido.
 
 _Ver la taxonomia de Bloom para seleccionar verbos_
 _Objetivo General: dar solucion al problema_
