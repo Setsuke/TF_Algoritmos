@@ -148,14 +148,9 @@ Es el arbol n-ario donde el maximo de hijos por nodo es de N
 
 ### Árbol binario
 
-Se caracteriza porque cada nodo tiene como maximo puede terner 2 hijos.Ádemas es un arbol de grado
+Se caracteriza porque cada nodo como maximo puede terner 2 hijos.Ádemas es un arbol de grado
 2
 
-```c++
-int main(){
-return 0;
-}
-```
 ### Diagrama de Clases (alto nivel)
 
 
