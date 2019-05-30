@@ -101,88 +101,8 @@ Los métodos simples son: insertion sort (o por inserción directa) selection so
 Se ha dicho que el ordenamiento puede efectuarse moviendo los registros con las claves. El mover un registo completo implica un costo, el cual se incrementa conforme sea mayor el tamaño del registro. Es por ello que es deseable evitar al máximo el movimiento de los registros. Una alternativa es el crear una tabla de referencias a los registros y mover las referencias y no los datos. A continuación se mostrarán los métodos de ordenamiento empezando por el más sencillo y avanzando hacia los mas sofisticados 
 La eficiencia de los algoritmos se mide por el número de comparaciones e intercambios que tienen que hacer, es decir, se toma n como el número de elementos que tiene el arreglo a ordenar y se dice que un algoritmo realiza O(n2) comparaciones cuando compara n veces los n elementos, n x n = n2. 
 
-
-### ORDENAMIENTO DE BURBUJA
-
-La Ordenación de burbuja (Bubble Sort en inglés) es un sencillo algoritmo de ordenamiento. Funciona revisando cada elemento de la lista que va a ser ordenada con el siguiente, intercambiándolos de posición si están en el orden equivocado. Es necesario revisar varias veces toda la lista hasta que no se necesiten más intercambios, lo cual significa que la lista está ordenada. Este algoritmo obtiene su nombre de la forma con la que suben por la lista los elementos durante los intercambios, como si fueran pequeñas "burbujas". También es conocido como el método del intercambio directo. Dado que solo usa comparaciones para operar elementos, se lo considera un algoritmo de comparación, siendo el más sencillo de implementar.
-
-### burbuja
-
-```c++
-#include<stdio.h> 
-#include<conio.h> 
-int a[3]={3,2,1}; 
-int i,j,aux,n=3; 
-void main(){ 
-clrscr(); 
-for(i=0;i<=n;i++){ 
-for(j=0;j<n-1;j++){ 
-if(a[j]>a[j+1]){ 
-aux=a[j]; 
-a[j]=a[j+1]; 
-a[j+1]=aux; 
-} 
-} 
-} 
-for(i=0;i<3;i++) 
-{ 
-printf("%d",a); 
-} 
-getch(); 
-} 
-```
-
-### ORDENAMIENTO SHELL
  
-El ordenamiento Shell (Shell sort en inglés) es un algoritmo de ordenamiento. El método se denomina Shell en honor de su inventor Donald Shell. Su implementación original, requiere O(n2) comparaciones e intercambios en el peor caso. Un cambio menor presentado en el libro de V. Pratt produce una implementación con un rendimiento de O(n log2 n) en el peor caso. Esto es mejor que las O(n2) comparaciones requeridas por algoritmos simples pero peor que el óptimo O(n log n). Aunque es fácil desarrollar un sentido intuitivo de cómo funciona este algoritmo, es muy difícil analizar su tiempo de ejecución.
- 
-El algoritmo Shell sort mejora el ordenamiento por inserción comparando elementos separados por un espacio de varias posiciones. Esto permite que un elemento haga "pasos más grandes" hacia su posición esperada. Los pasos múltiples sobre los datos se hacen con tamaños de espacio cada vez más pequeños. El último paso del Shell sort es un simple ordenamiento por inserción, pero para entonces, ya está garantizado que los datos del vector están casi ordenados.
- 
- 
-### shell
-```c++
-#include<stdio.h> 
-#include<conio.h> 
-int a[5]; 
-int n=5; 
-void main() 
-{ 
-int inter=(n/2),i=0,j=0,k=0,aux; 
-clrscr(); 
-for (i=0; i<5; i++) 
-{ 
-printf("INSERTA UN VALOR DEL INDICE %d", i); 
-scanf("%d",& a); 
-} 
-while(inter>0){ 
-for(i=inter;i<n;i++) 
-{ 
-j=i-inter; 
-while(j>=0) { 
-k=j+inter; 
-if(a[j]<=a[k]){ 
-j--; 
-} 
-else{ 
-aux=a[j]; 
-a[j]=a[k]; 
-a[k]=aux; 
-j=j-inter; 
-} 
-} 
-} 
-inter=inter/2; 
-} 
-for(i=0;i<5;i++) 
-{ 
-printf("%d n",a); 
-getch(); 
-} 
-}  
-
-```
- 
-### ORDENAMIENTO POR INSERCION 
+### El METODO ORDENAMIENTO  QUE UTILIZAREMOS ES POR INSERCION 
  
 El ordenamiento por inserción (insertion sort en inglés) es una manera muy natural de ordenar para un ser humano, y puede usarse fácilmente para ordenar un mazo de cartas numeradas en forma arbitraria. Requiere O(n²) operaciones para ordenar una lista de n elementos.
 
@@ -217,65 +137,6 @@ printf("%d",a);
 getch(); 
 } 
 ```
-
-### ORDENAMIENTO POR SELECCION 
- 
-El ordenamiento por selección (Selection Sort en inglés) es un algoritmo de ordenamiento que requiere O(n^2) operaciones para ordenar una lista de n elementos.
-Su funcionamiento es el siguiente:
-
-Buscar el mínimo elemento de la lista
-Intercambiarlo con el primero
-Buscar el mínimo en el resto de la lista
-Intercambiarlo con el segundo
-Y en general:
-
-Buscar el mínimo elemento entre una posición i y el final de la lista
-Intercambiar el mínimo con el elemento de la posición i
-De esta manera se puede escribir el siguiente pseudocódigo para ordenar una lista de n elementos indexados desde el 1:
-
-```c++
-para i=1 hasta n-1
-    minimo = i;
-    para j=i+1 hasta n
-        si lista[j] < lista[minimo] entonces
-            minimo = j /* (!) */
-        fin si
-    fin para
-    intercambiar(lista[i], lista[minimo])
-fin para 
-```
-
-### Seleccion
-```c++
-#include<stdio.h> 
-#include<conio.h> 
-int x[4]={1,4,8,6}; 
-int n=4,j=0,i=0; 
-int temp=0,minimo=0; 
-void main(){ 
-clrscr(); 
-for(i=0;i<n-1;i++) 
-{ 
-minimo=i; 
-for(j=i+1;j<n;j++) 
-{ 
-if(x[minimo] > x[j]) 
-{ 
-minimo=j; 
-} 
-} 
-temp=x[minimo]; 
-x[minimo]=x; 
-x=temp; 
-} 
-for(i=0;i<n;i++) 
-{ 
-printf("%d",x); 
-} 
-getch(); 
-}
-```
-
 ### Algoritmos de búsqueda
 
 Un algoritmo de búsqueda como lo dice su nombre es una secuencia de pasos para encontrar dentro de una lista de datos un dato determinado. Los algoritmos de búsqueda varían según los pasos o métodos que emplea para encontrar datos, pero todos cumplen con el mismo fin. Los algoritmos de búsqueda empleados frecuentemente son la búsqueda binaria, búsqueda lineal o secuencial y la búsqueda por transformación de clave o Hash. Cada algoritmo de búsqueda presentaremos un ejemplo en el lenguaje de programación C++ para tener una imagen clara de cómo el algoritmo resuelve el problema.
@@ -434,24 +295,16 @@ int main(){
 return 0;
 }
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Diagrama de Clases (alto nivel)
 
 
 ### Cronograma
+
+
+
+
+
+
+
+
+
