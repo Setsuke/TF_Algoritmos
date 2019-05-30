@@ -123,8 +123,9 @@ return 0;
 
 ### Bibliografia
 
-*Urquía, A., & Martín, C. (2013). Modelado y simulación de eventos discretos. Madrid: UNED.
-*Debasis, S. (2009). Classic Data Structures. 2ª ed. PHI Learning: Nueva Delhi.
+* Urquía, A., & Martín, C. (2013). Modelado y simulación de eventos discretos. Madrid: UNED.
+
+* Debasis, S. (2009). Classic Data Structures. 2ª ed. PHI Learning: Nueva Delhi.
 
 
 
