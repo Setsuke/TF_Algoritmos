@@ -10,6 +10,9 @@ Trabajo Final
 * Victor Lopez Ramirez
 
 ### Introducción
+En el presente documento se presentará el trabajo final del curso de Algoritmos y Estructuras de Datos, el cual está basado en construir una biblioteca en c++ para el manejo de dataframes,la cual busca desarrollar la competencia general de pensamiento innovador, y la específica de diseñar sistemas, componentes o procesos para encontrar soluciones en la atención de necesidades teniendo en cuenta restricciones económicas, sociales, políticas, éticas, de salud y seguridad y otras propias del entorno, pero gracias a las aptitudes que se irán adquiriendo en el transcurso del curso de algoritmos, lograremos sobreponernos al trabajo solicitado por el profesor.
+
+La biblioteca a construir tendrá como funciones la de importación de datos, el indexado de datos por columnas, de igual manera la selección de datos por columnas, el filtrado de datos por columnas, también el ordenamiento de datos por columnas y la exportación de datos a archivos planos con diferente formato.
 
 _Motivacion(trabajar proyectos de machine learning de manera eficiente), Problema general, 
 Solucion general, Lo que se espera(manipular de manera rapida y eficiente grandes cantidades de datos)_
