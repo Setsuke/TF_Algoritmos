@@ -139,7 +139,6 @@ Semana 15: Hito 3
 *	Implementación de los componentes diseñados
 *	Implementación de la persistencia de la aplicación
 *	Diseño en general del software.
-*	Esta etapa se presentará por medio de exposición formal en donde cada estudiante contará con un máximo de 8 minutos para presentar su proyecto, hacer una demostración y responder preguntas.
 
 
 ### Bibliografia
