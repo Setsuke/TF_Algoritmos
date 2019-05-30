@@ -74,7 +74,7 @@ mi_df * 2
 
 ```
 
-### METODOS DE ORDENAMIENTO
+### Métodos de ordenamiento
 
 Debido a que las estructuras de datos son utilizadas para almacenar información, para poder recuperar esa información de manera eficiente es deseable que aquella esté ordenada. Existen varios métodos para ordenar las diferentes estructuras de datos básicas.
 En general los métodos de ordenamiento no son utilizados con frecuencia, en algunos casos sólo una vez. Hay métodos muy simples de implementar que son útiles en los casos en dónde el número de elementos a ordenar no es muy grande (ej, menos de 500 elementos). Por otro lado hay métodos sofisticados, más difíciles de implementar pero que son más eficientes en cuestión de tiempo de ejecución.
@@ -88,11 +88,11 @@ Se ha dicho que el ordenamiento puede efectuarse moviendo los registros con las 
 La eficiencia de los algoritmos se mide por el número de comparaciones e intercambios que tienen que hacer, es decir, se toma n como el número de elementos que tiene el arreglo a ordenar y se dice que un algoritmo realiza O(n2) comparaciones cuando compara n veces los n elementos, n x n = n2. 
 
  
-### El METODO ORDENAMIENTO MERGE
+### El método de ordenamiento Merge
 
 Este algoritmo se basa en una estrategia de divide y vencerás como una forma de mejorar el rendimiento de los algoritmos de ordenamiento. Merge, es un algoritmo recursivo que divide continuamente una lista por la mitad. Si la lista esta vacía o tiene un solo ítem, se ordena por definición. Si la lista tiene más de un ítem, se divide la lista y se invoca recursivamente un ordenamiento por mezcla para ambas mitades. Cuando ambas mitades se encuentran ordenadas, se realiza la operación principal, llamada Merge(mezcla). La mezcla es el proceso de tomar dos listas ordenadas de menor tamaño y combinarlas en una sola lista nueva y ordenada.
 
-### El METODO ORDENAMIENTO INSERTION
+### El método de ordenamiento Insertion
  
 El ordenamiento por inserción (insertion sort en inglés) es una manera muy natural de ordenar para un ser humano, y puede usarse fácilmente para ordenar un mazo de cartas numeradas en forma arbitraria. Requiere O(n²) operaciones para ordenar una lista de n elementos.
 
@@ -108,7 +108,6 @@ Es un algoritmo de búsqueda más eficiente que el anterior, pero posee el incon
  –
 debido a que está ordenado- que no puede encontrarse allí. Por ejemplo, imaginemos que tenemos un arreglo que contiene 11 elementos distribuidos de manera ordenada [2,6,9,12,15,18,24,29,32,45,50] y queremos buscar el elemento 12 en dicho arreglo. El algoritmo divide el arreglo en dos partes o bloques y se coloca en la posición del medio, en este caso se colocará en el elemento 18 ya que es la posición media del arreglo. Luego compara dicho elemento con la clave de búsqueda o dato que deseamos buscar, lo cual resulta que 18 no es similar a 12, por lo cual procede a verificar si dicho elemento es menor o mayor a la clave de búsqueda, es decir, si 18 es menor o mayor a 12, en este caso 18 es mayor a 12, por la cual el algoritmo procede a ignorar todos los elementos mayores e iguales que 18, es decir, ignora todos los elementos del segundo bloque y repite el proceso centrándose en el primer bloque y dividiendo dicho bloque en dos partes. En caso de que  no encuentre el elemento repite el proceso hasta que indique si el elemento se encuentre o no en el arreglo. El algoritmo compararía los elementos del arreglo [2,6,9,12,15,18,24,29,32,45,50] de la siguiente manera:
 
-```c++
 
 ```c++
 int main(){
