@@ -94,35 +94,6 @@ El ordenamiento por inserción (insertion sort en inglés) es una manera muy nat
 
 Inicialmente se tiene un solo elemento, que obviamente es un conjunto ordenado. Después, cuando hay k elementos ordenados de menor a mayor, se toma el elemento k+1 y se compara con todos los elementos ya ordenados, deteniéndose cuando se encuentra un elemento menor (todos los elementos mayores han sido desplazados una posición a la derecha) o cuando ya no se encuentran elementos (todos los elementos fueron desplazados y este es el más pequeño). En este punto se inserta el elemento k+1 debiendo desplazarse los demás elementos.
 
-
-### inserccion
-
-```c++
-#include<stdio.h> 
-#include<conio.h> 
-int a[4]={4,1,7,2}; 
-int n=4; 
-int i,j,aux; 
-void main(){ 
-clrscr(); 
-for(i=1;i<n;i++) 
-{ 
-j=i; 
-aux=a; 
-while(j>0 && aux<a[j-1]) 
-{ 
-a[j]=a[j-1]; 
-j--; 
-} 
-a[j]=aux; 
-} 
-for(i=0;i<4;i++) 
-{ 
-printf("%d",a); 
-} 
-getch(); 
-} 
-```
 ### Algoritmos de búsqueda
 
 Un algoritmo de búsqueda como lo dice su nombre es una secuencia de pasos para encontrar dentro de una lista de datos un dato determinado. Los algoritmos de búsqueda varían según los pasos o métodos que emplea para encontrar datos, pero todos cumplen con el mismo fin. Los algoritmos de búsqueda empleados frecuentemente son la búsqueda binaria, búsqueda lineal o secuencial y la búsqueda por transformación de clave o Hash. Cada algoritmo de búsqueda presentaremos un ejemplo en el lenguaje de programación C++ para tener una imagen clara de cómo el algoritmo resuelve el problema.
