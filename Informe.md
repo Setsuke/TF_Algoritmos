@@ -19,7 +19,7 @@ Solucion general, Lo que se espera(manipular de manera rapida y eficiente grande
 
 
 ### Problema
-Dificultad para manejar de manera eficiente amplias cantidades de datos, los cuales deben ordenarse y buscar datos especificos en el menor tiempo posible. 
+Dificultad para manejar amplias cantidades de datos eficientemente, de manera que se puedan buscar datos especificos y ordenar datos en el menor tiempo posible. 
 
 ### Objetivos
 Para lograr nuestro objetivo, tenemos que someternos a un riguroso plan de concentración en equipo y usar todos los recursos que tenemos a nuestro alcance, los cuales son el poner en práctica los temas explicados, los que se explicaran posteriormente en clase y otros que se investigaran para la realización de nuestro trabajo, desarrollando un pensamiento más innovador que no ayudara a captar la solución más eficiente para el desarrollo del trabajo y para problemas a futuro dentro de nuestra vida profesional.
