@@ -120,6 +120,27 @@ return 0;
 
 ### Cronograma
 
+Semana 12: Hito 1
+*	Introducción
+*	Objetivos
+*	Marco conceptual
+*	Diagrama de clases de entidades principales
+*	Cronograma de trabajo
+
+Semana 13: Hito 2
+*	Implementación de clases del hito anterior
+*	Prototipo: Diseño de UI e interacción
+*	Definición de TDA y estructuras de datos a usar
+*	Diseño de componentes
+*	Diagrama de clases de segundo nivel.
+
+Semana 15: Hito 3
+*	Diseño de archivos a utilizar
+*	Implementación de los componentes diseñados
+*	Implementación de la persistencia de la aplicación
+*	Diseño en general del software.
+*	Esta etapa se presentará por medio de exposición formal en donde cada estudiante contará con un máximo de 8 minutos para presentar su proyecto, hacer una demostración y responder preguntas.
+
 
 ### Bibliografia
 
