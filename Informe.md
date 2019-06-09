@@ -153,7 +153,7 @@ Se caracteriza porque cada nodo como maximo puede terner 2 hijos.Ádemas es un a
 
 ### Diagrama de Clases (alto nivel)
 
-![DC_TF](https://github.com/Setsuke/TF_Algoritmos/blob/master/DCTF.png)
+![DC_Algoritmos](https://github.com/Setsuke/TF_Algoritmos/blob/master/DC_Algoritmos.png)
 
 ### Cronograma
 
