@@ -134,6 +134,7 @@
     <ClCompile Include="Dato.cpp" />
     <ClCompile Include="DF.cpp" />
     <ClCompile Include="Fila.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
