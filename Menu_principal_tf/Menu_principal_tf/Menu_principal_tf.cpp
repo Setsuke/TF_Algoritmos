@@ -15,17 +15,17 @@ int menu() {
 
 	do {
 		Console::Clear();
-		cout << " \ n Menu principl \ n \ n ";
-		cout << " [1] => Cargar archivo \ n ";
-		cout << " [2] => Imprimir \ n ";
-		cout << " [3] => Listar \ n ";
-		cout << " [4] => Guardar \ n ";
-		cout << " [5] => Indexar \ n ";
-		cout << " [6] => Crear nuevo data DF \ n ";
-		cout << " [7] => Salir \ n \ n ";
+		cout << " \ n Menu principl\n\n ";
+		cout << " [1] => Cargar archivo\n ";
+		cout << " [2] => Imprimir\n ";
+		cout << " [3] => Listar\n ";
+		cout << " [4] => Guardar\n ";
+		cout << " [5] => Indexar\n ";
+		cout << " [6] => Crear nuevo data DF\n ";
+		cout << " [7] => Salir\n\n ";
 		cout << " [8] => Eligir una de las opciones: ";
 		cin >> op;
-	} while (!(op > = 1 && op <= 7) && (op!= 7));
+	} while (!(op >= 1 && op <= 7) && (op!= 7));
 
 	return op;
 
