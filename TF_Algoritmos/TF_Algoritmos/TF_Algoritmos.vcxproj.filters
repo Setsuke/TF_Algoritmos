@@ -15,35 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DF.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Dato.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Fila.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Columna.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="arbol.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DF.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Dato.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Fila.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Columna.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
