@@ -6,6 +6,7 @@
 using namespace std;
 
 template <typename T>
+
 class AVLTree
 {
 
@@ -16,8 +17,7 @@ class AVLTree
 		Node*	r;
 		int		h;
 
-		Node(T e, Node* l = nullptr, Node* r = nullptr, int h = 0)
-			: e(e), l(l), r(r), h(h) {}
+		Node(T e, Node* l = nullptr, Node* r = nullptr, int h = 0) : e(e), l(l), r(r), h(h) {}
 	};
 
 	Node*	root;
@@ -84,6 +84,14 @@ class AVLTree
 			updateH(n);
 
 	}
+	void inOrder(Node*node, std::function<void(string)> doSomething) {
+		if (node != nullptr)
+		{
+			inOrder(node->l, doSomething);
+			doSomething(node->e);
+			inOrder(node->r, doSomething);
+		}
+	}
 
 public:
 
@@ -118,5 +126,8 @@ public:
 			Balance(n);
 		};
 		ladd(root);
+	}
+	void InOrder(std::function<void(string)> doSomething) {
+		inOrder(root, doSomething);
 	}
 };
