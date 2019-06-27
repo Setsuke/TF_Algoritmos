@@ -5,9 +5,9 @@ Trabajo Final
 -------------
 
 ### Integrantes
-* Sergio Alva Rosales
-* Dino Perez Vasquez
-* Victor Lopez Ramirez
+* Sergio Alva Rosales  12.5
+* Dino Perez Vasquez   12.5
+* Victor Lopez Ramirez 12.5
 
 ### Introducción
 En el presente documento se presentará el trabajo final del curso de Algoritmos y Estructuras de Datos, el cual está basado en construir una biblioteca en c++ para el manejo de dataframes,la cual busca desarrollar la competencia general de pensamiento innovador, y la específica de diseñar sistemas, componentes o procesos para encontrar soluciones en la atención de necesidades teniendo en cuenta restricciones económicas, sociales, políticas, éticas, de salud y seguridad y otras propias del entorno, pero gracias a la motivación de trabajar en futuros proyectos de machine learning de manera competente, y las aptitudes que se irán adquiriendo en el transcurso del curso de Algoritmos y Estructuras de Datos, lograremos sobreponernos al trabajo solicitado por el profesor.
