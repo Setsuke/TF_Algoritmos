@@ -124,17 +124,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Columna.h" />
-    <ClInclude Include="Dato.h" />
-    <ClInclude Include="DF.h" />
-    <ClInclude Include="Fila.h" />
+    <ClInclude Include="arbol.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Columna.cpp" />
-    <ClCompile Include="Dato.cpp" />
-    <ClCompile Include="DF.cpp" />
-    <ClCompile Include="Fila.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
